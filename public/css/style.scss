@@ -1,0 +1,67 @@
+::-webkit-input-placeholder {
+   color: #534a51;
+   font-style: italic;
+   font-size:15px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #534a51;
+   font-style: italic;
+   font-size:15px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #534a51;
+   font-style: italic;
+   font-size:15px;
+}
+
+:-ms-input-placeholder {
+   color: #534a51;
+   font-style: italic;
+   font-size:15px;
+}
+$distance:2.5rem;
+$pri-color:#2e0927;
+$background : #fffad5;
+$color2:#04b086;
+$color3:#ff8c00;
+.auto-margin{
+    margin-top:$distance;
+}
+.auto-marginx2 {
+    margin-top:$distance*3;
+}
+.navbar {
+    background :$pri-color;
+    height:90px;
+}
+body {
+    background: $background;
+}
+#formdo {
+    & h1 {
+        color :$pri-color;
+    }
+    & input {
+        font-size:2rem;
+        &:focus {
+            border-color : $pri-color !important;
+            box-shadow :0 1px 0 0 $pri-color !important;
+        }
+    }
+    & button {
+        background-color:$pri-color;
+        position: relative;
+        height: 40px;
+    }
+}
+.progress {
+  min-height: 40px;
+  width: 0%;
+  background: red;
+  position: absolute;
+  top:-8px;
+  left:0;
+  visibility: hidden;
+}

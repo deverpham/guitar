@@ -1,0 +1,13 @@
+html
+    head
+        meta(charset="utf-8")
+        each item in cssel
+            link(rel='stylesheet',href='./public/css/'+item+'.css')
+        each item in jsel
+            script(src='../public/js/'+item+'.js')
+        script(src='https://www.youtube.com/iframe_api')
+
+        title Guitar Việt - Player
+    body
+        div#player(videoId=videoId)
+        h1.label

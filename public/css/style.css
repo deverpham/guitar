@@ -1,0 +1,71 @@
+::-webkit-input-placeholder {
+  color: #534a51;
+  font-style: italic;
+  font-size: 15px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #534a51;
+  font-style: italic;
+  font-size: 15px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #534a51;
+  font-style: italic;
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  color: #534a51;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.auto-margin {
+  margin-top: 2.5rem;
+}
+
+.auto-marginx2 {
+  margin-top: 7.5rem;
+}
+
+.navbar {
+  background: #2e0927;
+  height: 90px;
+}
+
+body {
+  background: #fffad5;
+}
+
+#formdo h1 {
+  color: #2e0927;
+}
+
+#formdo input {
+  font-size: 2rem;
+}
+
+#formdo input:focus {
+  border-color: #2e0927 !important;
+  box-shadow: 0 1px 0 0 #2e0927 !important;
+}
+
+#formdo button {
+  background-color: #2e0927;
+  position: relative;
+  height: 40px;
+}
+
+.progress {
+  min-height: 40px;
+  width: 0%;
+  background: red;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  visibility: hidden;
+}
